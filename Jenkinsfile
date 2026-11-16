@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/mounikagannu2008/PythonPipeline.git'
+                echo 'checking this out'
             }
         }
 
